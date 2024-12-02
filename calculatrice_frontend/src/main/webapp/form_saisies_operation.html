@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculatrice</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div>
+            <!--
+        <h1>Calculatrice version 1</h1>
+        <code>http://ip_serveur/calculatrice/calculate/operation/operande_1/operande_2</code>
+            -->
+            
+            <form action="http://localhost:8080/calculatrice_backend-1.0-SNAPSHOT/calculate"  method="get">
+                <p>Opérande 1 : <input type="text" name="operande1" /></p>
+                <p>Opérande 2 : <input type="text" name="operande2" /></p>
+
+                <select name="operation">
+                    <option value="add">+</option>
+                    <option value="sub">-</option>
+                    <option value="div">/</option>
+                    <option value="mul">*</option>
+
+                </select>
+
+                <p><input type="submit"  value="Calculer" /></p>
+            </form>
+        </div>
+    </body>
+</html>
