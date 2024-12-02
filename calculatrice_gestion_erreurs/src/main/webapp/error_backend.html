@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Page d'erreur</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+         <div>
+            <h2>Informations sur l'erreur</h2>
+            
+            <p><strong>Code d'état :</strong> ${statusCode}</p>
+            <p><strong>URI de la requête :</strong> ${requestUri}</p>
+            <p><strong>Nom du servlet :</strong> ${servletName}</p>
+            <p><strong>Message de l'exception :</strong> ${exception.message}</p>
+            <p><strong>Trace :</strong></p>
+            <pre>${exception.stackTrace}</pre>
+        </div>
+
+        <div>
+            <button onclick="window.location.href='http://localhost:8080/calculatrice_frontend/index.html';">Home Page</button>
+        </div>
+    </body>
+</html>

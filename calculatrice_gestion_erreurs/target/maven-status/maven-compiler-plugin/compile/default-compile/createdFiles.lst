@@ -1,0 +1,5 @@
+fr\devavance\calculatrice\controller\CalculatorController.class
+fr\devavance\calculatrice\metier\Calculator.class
+fr\devavance\calculatrice\exceptions\ErrorHandler.class
+com\mycompany\calculatrice_backend\resources\JakartaEE8Resource.class
+com\mycompany\calculatrice_backend\JakartaRestConfiguration.class
