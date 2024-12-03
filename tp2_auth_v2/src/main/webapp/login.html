@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="/tp2_auth_v2-1.0-SNAPSHOT/auth" method="get">
+        <label for="login">Login :</label>
+        <input type="text" id="login" name="login" required>
+        <br><br>
+        
+        <label>Password :</label>
+        <input type="password">
+        <br><br>
+
+        <label>Section :</label>
+        <select id="section" name="section">
+            <option value="cours">Cours</option>
+            <option value="TD">TD</option>
+            <option value="TP">TP</option>
+        </select>
+        <br><br>
+
+        <button type="submit">Se connecter</button>
+    </form>
+    </body>
+</html>
